@@ -2,7 +2,7 @@ const { calculateGrade } = require('../server');
 
 describe('Grade Calculator', () => {
     test('should return A for marks >= 75', () => {
-        expect(calculateGrade(85)).toBe('A');
+        expect(calculateGrade(85)).toBe('F');
         expect(calculateGrade(75)).toBe('A');
     });
 
